@@ -19,10 +19,18 @@ It presents a complete **binary text classification** workflow, including:
 
 The dataset contains two columns:
 
-- `review` — the text of the movie review
+- `review` — the text of the movie review  
 - `sentiment` — the review label (`positive` or `negative`)
 
 This makes the task a **binary classification problem** in the field of **Natural Language Processing (NLP)**.
+
+The dataset file is not included in this repository because of its size.
+
+To run the notebook, download the IMDb dataset manually and place it in the project folder as:
+
+```text
+IMDB Dataset.csv
+```
 
 ## Workflow
 
